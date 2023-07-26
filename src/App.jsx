@@ -5,10 +5,10 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
       <div>Gary is a super duper cool guy.</div>
+      <div>And his secret code is {import.meta.env.VITE_GARYS_VAR}</div>
     </>
   )
 }
